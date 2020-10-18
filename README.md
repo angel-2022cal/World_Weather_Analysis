@@ -25,4 +25,25 @@ related questions: How might we provide real_time suggestions for our client's i
       
       5). Collect the following data from the JSON file and add it to a DataFrame: [1]. City, country and date. [2]. Latitude and longtitude. [3]. Maximum temperature. [4]. Humidity. [5]. Cloudiness. [6]. Wind speed.
       
+2. Exploratory Analysis with Visualization
+
+      1). Create scatter plots of the weather data for the following comparisions: [1] Latitude v.s temperature. [2]. Latitude v.s humidity. [3]. Latitude v.s. Cloudiness. [4]. Latitude v.s. wind speed. 
+      
+      2). Determine the correlations for the following weather data: [1]. Latitude and temperature. [2]. Latitude and humidity. [3]. Latitude and cloudiness. [4]. Latitude and wind speed. 
+      
+      3). Create a series of heatmaps using the Google Maps and Places API that showcases the following: [1]. Latitude and temperature. [2]. Latitude and humidity. [3]. Latitude and cloudiness. [4]. Latitude and wind speed. 
+    
+3. Visualize Travel Data 
+
+Create a heatmap with pop-up markers that can display information on specific cities based on a customer's travel perferences. Complete these steps:
+
+      1). Filter the Pandas DataFrame based on user inputs for a minimum and maximum temperature.
+      
+      2). Create a heatmap for the new DataFrame.
+      
+      3). Find a hotel from the cities's coordinates using Google's Maps and Places API, and Search Nearby feature.
+      
+      4). Store the name of the first hotel in the DataFrame. 
+      
+      5). Add pop-up markers to the heatmap that display information about the city, currrent maximum temperature, and a hotel in the city. 
       
