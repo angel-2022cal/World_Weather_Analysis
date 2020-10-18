@@ -17,6 +17,12 @@ related questions: How might we provide real_time suggestions for our client's i
 
       1). use the Numpy module to generate more than 1,500 random latitudes and longtitudes. 
       
-      2). Use the citypy module to list the nearest city to the latitudes and longittudes. 
+      2). Use the citypy module to list the nearest city to the latitudes and longitudes. 
       
       3). Use the OpenWeatherMap API to request the current wather data from each unique city in your list. 
+      
+      4). Parse the JSON data from the API request. 
+      
+      5). Collect the following data from the JSON file and add it to a DataFrame: [1]. City, country and date. [2]. Latitude and longtitude. [3]. Maximum temperature. [4]. Humidity. [5]. Cloudiness. [6]. Wind speed.
+      
+      
