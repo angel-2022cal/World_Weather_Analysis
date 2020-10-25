@@ -1,5 +1,7 @@
 ## World_Weather_Analysis
 
+![](Weather_data/WeatherPy_travel_map.png)
+
 ## Criteria:
 
 ### Basic Project Plan
